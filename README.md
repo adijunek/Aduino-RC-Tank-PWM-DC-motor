@@ -22,7 +22,7 @@ Required libraries:
 
   
 
-The main code (_Arduino_RCTank_PWM_DC_motors.ino_) is responsible for steering the vehicle. The code simply converts throttle channel (CH 01) and steering channel (CH 02) into two throttle channels (controlling right and left motor speed). Channel 03 is used for controlling servo.
+The main code (_Arduino_RCTank_PWM_DC_motors.ino_) is responsible for steering the vehicle (and controlling the servo). The code simply converts throttle channel (CH 01) and steering channel (CH 02) into two throttle channels (controlling right and left motor speed). Channel 03 is used for controlling servo.
 
   
 
