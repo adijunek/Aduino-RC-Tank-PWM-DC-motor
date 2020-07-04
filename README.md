@@ -1,5 +1,8 @@
 # Aduino based RC Tank (PWM, DC motors)
 
+[![Arduino RC Tank](https://img.youtube.com/vi/WQx10WutNS8/hqdefault.jpg)](https://youtu.be/WQx10WutNS8 "Arduino RC Tank")
+
+
 A simple and basic code for an arduino based RC tank with an RF receiver, two DC motors, and a servo for fpv camera movement (pan/tilt).
   
 
@@ -29,5 +32,4 @@ The main code (_Arduino_RCTank_PWM_DC_motors.ino_) is responsible for steering t
 For reading and decoding PWM signal, _pwmread_rcfailsafe.ino_, a script written by Kelvin Nelson is used with some adjusments. The original script and a good explanation on how decoding PWM signals using arduino interupt can be found [here](https://create.arduino.cc/projecthub/kelvineyeone/read-pwm-decode-rc-receiver-input-and-apply-fail-safe-6b90eb). Another resourceful reading is [here](http://rcarduino.blogspot.com/2012/05/interfacing-rc-channels-to-l293d-motor.html).
  
 
-A video of it's maiden run:
-[![Arduino RC Tank](https://img.youtube.com/vi/WQx10WutNS8/hqdefault.jpg)](https://youtu.be/WQx10WutNS8 "Arduino RC Tank")
+
